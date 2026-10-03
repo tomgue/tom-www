@@ -3,8 +3,11 @@ _merge: deep
 # Umami Analytics Configuration
 umami:
   enabled: false
-  website_id: ''
+  website_id: '0fe3507c-451a-4694-9684-be54bfd4b8cd'
   src: 'https://cloud.umami.is/script.js'
+
+form:
+  netlify: true
 
 # logo:
 #   header: '/assets/images/logo.svg'
@@ -21,31 +24,30 @@ search:
   enable: true # Set true to enable search
   layout: drawer # Also raw, modal or drawer
   filter: false # Set true to add filters by type
-  sort: true
+  sort: false # Set true to add sort by date
 
 # Admin
 admin:
   cms: sveltiacms
   name: github
-  repo: tomgue/tomgue.github.io
+  repo: tomgue/tom-www
+  branch: dev
   title: TomLab CMS
-  media_folder: images/uploads
-  public_folder: images/uploads
   netlify:
-    identity: false
+    identity: true
   collections:
+    indexes:
+      enable: false
     pages:
-      thumbnail: hero.images.src
+      thumbnail: hero.image.src
       media_folder: '{{media_folder}}/pages'
       public_folder: '{{public_folder}}/pages'
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
     docs:
-      thumbnail: images.src
+      thumbnail: image.src
       media_folder: '{{media_folder}}/docs'
       public_folder: '{{public_folder}}/docs'
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
       nested:
         depth: 10
         subfolders: true
-    indexes:
-      enable: false

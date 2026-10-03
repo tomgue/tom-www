@@ -1,25 +1,25 @@
 [build]
-  command = "yarn build:search"
-  publish = "public"
+command = "yarn build:search"
+publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.167.0"
-  GO_VERSION = "1.27.1"
-  NODE_VERSION = "24.21"
-  TZ = "Europe/Paris"
+HUGO_VERSION = "0.167.0"
+GO_VERSION = "1.27.1"
+NODE_VERSION = "24.21"
+TZ = "Europe/Paris"
 
 [context.production.environment]
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-  HUGO_ENV = "staging"
+HUGO_ENV = "staging"
 
 [[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
+package = "netlify-plugin-hugo-cache-resources"
