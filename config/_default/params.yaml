@@ -48,7 +48,7 @@ admin:
         - label: 'Draft'
           field: draft
       fields:
-        - featured_imag
+        - featured_image
       thumbnail: image.src
       media_folder: '{{media_folder}}/docs'
       public_folder: '{{public_folder}}/docs'
