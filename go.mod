@@ -6,9 +6,9 @@ require (
 	github.com/Splidejs/splide v4.1.3+incompatible // indirect
 	github.com/dixonandmoe/rellax v0.0.0-20240824005335-9ed6cb0aae03 // indirect
 	github.com/hugolify/hugolify-admin/v2 v2.0.0-25 // indirect
-	github.com/hugolify/hugolify-theme-design-system v0.0.0-20261001084057-e03085102057 // indirect
+	github.com/hugolify/hugolify-theme-design-system v0.0.0-20261005170941-47a6b2fe5a9d // indirect
 	github.com/hugolify/hugolify-theme-docs/v2 v2.0.0-20260908101900-d1c813828f6e // indirect
-	github.com/hugolify/hugolify-theme-icons v0.0.0-20260903194220-889a383d226d // indirect
+	github.com/hugolify/hugolify-theme-icons v0.0.0-20261005082152-4cf544470a42 // indirect
 	github.com/hugolify/hugolify-theme-persons-places/v2 v2.2.0 // indirect
 	github.com/hugolify/hugolify-theme-persons/v2 v2.8.0 // indirect
 	github.com/hugolify/hugolify-theme-places/v2 v2.3.0 // indirect
@@ -16,7 +16,7 @@ require (
 	github.com/hugolify/hugolify-theme-posts-categories/v2 v2.1.0 // indirect
 	github.com/hugolify/hugolify-theme-posts-tags/v2 v2.1.0 // indirect
 	github.com/hugolify/hugolify-theme-posts/v2 v2.4.1 // indirect
-	github.com/hugolify/hugolify-theme/v2 v2.33.0 // indirect
+	github.com/hugolify/hugolify-theme/v2 v2.35.0 // indirect
 	github.com/lucide-icons/lucide v0.265.1-0.20260929220838-5a92b9ba262d // indirect
 	github.com/midzer/tobii v3.2.0+incompatible // indirect
 	github.com/orestbida/cookieconsent v3.1.0+incompatible // indirect
