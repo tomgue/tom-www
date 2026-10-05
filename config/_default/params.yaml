@@ -2,7 +2,7 @@ _merge: deep
 
 # Umami Analytics Configuration
 umami:
-  enabled: false
+  enabled: true
   website_id: '0fe3507c-451a-4694-9684-be54bfd4b8cd'
   src: 'https://cloud.umami.is/script.js'
 
@@ -26,6 +26,10 @@ search:
   filter: false # Set true to add filters by type
   sort: false # Set true to add sort by date
 
+image:
+  retina:
+    desktop: true
+
 # Admin
 admin:
   cms: sveltiacms
@@ -33,6 +37,9 @@ admin:
   repo: tomgue/tom-www
   branch: dev
   title: TomLab CMS
+  media_libraries:
+    all:
+      filename_template: '{{fields.title_page}}-{{uuid_short}}'
   netlify:
     identity: true
   collections:
@@ -48,7 +55,15 @@ admin:
         - label: 'Draft'
           field: draft
       fields:
+        - id
+        - is_not_index
+        - draft
+        - title_page
+        - description
+        - icon
         - featured_image
+        - body
+        - slug
       thumbnail: image.src
       media_folder: '{{media_folder}}/docs'
       public_folder: '{{public_folder}}/docs'
