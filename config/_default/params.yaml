@@ -44,6 +44,11 @@ admin:
       public_folder: '{{public_folder}}/pages'
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
     docs:
+      view_groups:
+        - label: 'Draft'
+          field: draft
+      fields:
+        - featured_imag
       thumbnail: image.src
       media_folder: '{{media_folder}}/docs'
       public_folder: '{{public_folder}}/docs'
