@@ -35,4 +35,13 @@ blocks:
         placeholder: Votre message…
     name: contact
     submit: Envoyer le message
+  - type: title
+    heading:
+      title: Information
+      text: '**_« En soumettant ce formulaire, vous acceptez que les informations saisies soient traitées par le biais du service Netlify Forms afin de répondre à votre demande. Pour en savoir plus sur la gestion de vos données et exercer vos droits, consultez notre Politique de Confidentialité. »_**'
+    ui:
+      theme: accent
+      grid: medium
+      offset: center
+      align: center
 ---
