@@ -22,13 +22,13 @@ Face à l'opacité croissante du numérique, à la jungle des abonnements et aux
 
 Ma Philosophie : **Indépendance et Curiosité**
 
-## **Mon approche repose sur trois piliers fondamentaux :**
+## Mon approche repose sur trois piliers fondamentaux
 
 - **La Souveraineté Numérique :** Je crois fermement à l'auto-hébergement (self-hosting). Reprendre le contrôle de ses données et de ses outils n'est pas qu'une question technique, c'est une question de liberté.
 - **L'Apprentissage par l'Action :** Rien ne remplace la sensation de comprendre comment un outil fonctionne "sous le capot". Qu'il s'agisse d'un script en Go ou d'un montage électronique, l'erreur est, pour moi, la meilleure des formations.
 - **Le Partage Open-Source :** Tout ce que je construis ici s'appuie sur le travail de milliers de passionnés. En documentant mes projets, mes réussites et (surtout) mes échecs, j'espère apporter ma pierre à l'édifice.
 
-## Ce que vous trouverez ici :
+## Ce que vous trouverez ici
 
 Ce blog est un mélange de code, de hardware et de DIY. Je partage mes expérimentations autour de :
 
