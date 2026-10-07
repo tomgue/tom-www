@@ -37,19 +37,42 @@ admin:
   repo: tomgue/tom-www
   branch: dev
   title: TomLab CMS
+  preview: true
+
+  slug:
+    encoding: unicode
+    clean_accents: true
+    sanitize_replacement: '-'
+    trim: true
+    lowercase: true
+  
   media_libraries:
     all:
-      filename_template: '{{fields.title_page}}-{{uuid_short}}'
+      slugify_filename: true
+      filename_template: '{{slug}}-{{filename}}-{{uuid_short}}'
+  
   netlify:
     identity: true
   collections:
     indexes:
       enable: false
+    posts:
+      view_groups:
+        - label: 'Draft'
+          field: draft
+      media_folder: '{{media_folder}}/posts'
+      public_folder: '{{public_folder}}/posts'
+      summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
+      
     pages:
+      view_groups:
+        - label: 'Draft'
+          field: draft
       thumbnail: hero.image.src
       media_folder: '{{media_folder}}/pages'
       public_folder: '{{public_folder}}/pages'
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
+      reorder: true
     docs:
       view_groups:
         - label: 'Draft'
