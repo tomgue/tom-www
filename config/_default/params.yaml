@@ -9,6 +9,9 @@ umami:
 form:
   netlify: true
 
+icons:
+  strokeWidth: 2
+
 # logo:
 #   header: '/assets/images/logo.svg'
 #   footer: '/assets/images/logo-footer.svg' # default: /assets/images/logo.svg
@@ -45,12 +48,12 @@ admin:
     sanitize_replacement: '-'
     trim: true
     lowercase: true
-  
+
   media_libraries:
     all:
       slugify_filename: true
       filename_template: '{{slug}}-{{filename}}-{{uuid_short}}'
-  
+
   netlify:
     identity: true
   collections:
@@ -63,7 +66,10 @@ admin:
       media_folder: '{{media_folder}}/posts'
       public_folder: '{{public_folder}}/posts'
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
-      
+    places:
+      media_folder: '{{media_folder}}/places'
+      public_folder: '{{public_folder}}/places'
+      summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
     pages:
       view_groups:
         - label: 'Draft'

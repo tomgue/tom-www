@@ -8,9 +8,9 @@ icon: brand:portainer
 
 {{< badge text="Gestion" state="info" >}}
 
-![Alt](/images/uploads/docs/portainer.jpg 'Titre')
+![Portainer](/images/uploads/docs/portainer.jpg 'Portainer')
 
-## **Informations générales**
+## {{< icon icon="info" >}} **Informations générales**
 
 - **Version** : `2.19.4`
 - **Image Docker** : [portainer/portainer-ee:latest](https://hub.docker.com/r/portainer/portainer-ee)
