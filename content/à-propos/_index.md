@@ -1,7 +1,7 @@
 ---
 isPage: true
 draft: false
-title: À propos
+title: A propos
 description: Bienvenue dans mon laboratoire numérique
 hero:
   surtitle: À propos
