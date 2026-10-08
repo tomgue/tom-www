@@ -11,7 +11,7 @@ hero:
     theme: accent
     align: center
     vertical_align: center
-    darken: true
+    darken: false
 ---
 
 # Mentions Légales et Politique de Confidentialité
