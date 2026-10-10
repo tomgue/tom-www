@@ -2,12 +2,15 @@ _merge: deep
 
 # Umami Analytics Configuration
 umami:
-  enabled: false
+  enabled: true
   website_id: '0fe3507c-451a-4694-9684-be54bfd4b8cd'
   src: 'https://cloud.umami.is/script.js'
 
 form:
   netlify: true
+
+icons:
+  strokeWidth: 2
 
 # logo:
 #   header: '/assets/images/logo.svg'
@@ -26,6 +29,10 @@ search:
   filter: false # Set true to add filters by type
   sort: false # Set true to add sort by date
 
+image:
+  retina:
+    desktop: true
+
 # Admin
 admin:
   cms: sveltiacms
@@ -33,17 +40,59 @@ admin:
   repo: tomgue/tom-www
   branch: dev
   title: TomLab CMS
+  preview: true
+
+  slug:
+    encoding: unicode
+    clean_accents: true
+    sanitize_replacement: '-'
+    trim: true
+    lowercase: true
+
+  media_libraries:
+    all:
+      slugify_filename: true
+      filename_template: '{{slug}}-{{filename}}-{{uuid_short}}'
+
   netlify:
     identity: true
   collections:
     indexes:
       enable: false
+    posts:
+      view_groups:
+        - label: 'Draft'
+          field: draft
+      media_folder: '{{media_folder}}/posts'
+      public_folder: '{{public_folder}}/posts'
+      summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
+    places:
+      media_folder: '{{media_folder}}/places'
+      public_folder: '{{public_folder}}/places'
+      summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
     pages:
+      view_groups:
+        - label: 'Draft'
+          field: draft
       thumbnail: hero.image.src
       media_folder: '{{media_folder}}/pages'
       public_folder: '{{public_folder}}/pages'
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
+      reorder: true
     docs:
+      view_groups:
+        - label: 'Draft'
+          field: draft
+      fields:
+        - id
+        - is_not_index
+        - draft
+        - title_page
+        - description
+        - icon
+        - featured_image
+        - body
+        - slug
       thumbnail: image.src
       media_folder: '{{media_folder}}/docs'
       public_folder: '{{public_folder}}/docs'
