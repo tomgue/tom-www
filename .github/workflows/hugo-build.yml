@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: '24.21'
+          node-version: '24.22.0'
           cache: 'yarn'
           cache-dependency-path: '**/yarn.lock'
 
@@ -29,7 +29,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.167.0'
+          hugo-version: '0.168.0'
           extended: true
 
       - name: Install Hugo modules

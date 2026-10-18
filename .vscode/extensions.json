@@ -5,7 +5,6 @@
     "esbenp.prettier-vscode",
     "redhat.vscode-yaml",
     "editorconfig.editorconfig",
-    "tamasfe.even-better-toml",
-    "thuliteio.hugo-shortcodes"
+    "tamasfe.even-better-toml"
   ]
 }
