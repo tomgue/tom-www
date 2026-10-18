@@ -3,19 +3,14 @@ isPage: true
 draft: false
 title: Contact
 blocks:
-  - type: title
-    heading:
-      title: Information
-      text: '**_« En soumettant ce formulaire, vous acceptez que les informations saisies soient traitées par le biais du service Netlify Forms afin de répondre à votre demande. Pour en savoir plus sur la gestion de vos données et exercer vos droits, consultez notre Politique de Confidentialité. »_**'
-    ui:
-      theme: accent
-      grid: medium
-      offset: center
-      align: center
   - type: form
+    heading:
+      surtitle: Une question ? une insulte ?
+      title: Me contacter
+      text: Contactez-moi avec ce formulaire, je vous répondrai dès que possible.
     ui:
-      theme: dark
-      grid: medium
+      theme: light
+      grid: small
       offset: center
       align: center
     items:
@@ -41,4 +36,5 @@ blocks:
         placeholder: Votre message…
     name: contact
     submit: Envoyer le message
+    legal: « En soumettant ce formulaire, vous acceptez que les informations saisies soient traitées par le biais du service Netlify Forms afin de répondre à votre demande. Pour en savoir plus sur la gestion de vos données et exercer vos droits, consultez notre Politique de Confidentialité. »
 ---

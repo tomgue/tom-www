@@ -1,4 +1,5 @@
 ---
+weight: 1
 isIndex: false
 draft: false
 title: Materiel du homelab

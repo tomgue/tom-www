@@ -4,8 +4,6 @@ enableEmoji: true
 enableRobotsTXT: true
 
 markup:
-  highlight:
-    style: catppuccin-frappe
   goldmark:
     extensions:
       extras:

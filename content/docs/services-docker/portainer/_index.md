@@ -4,13 +4,15 @@ draft: false
 title: Portainer
 description: Interface de gestion visuelle pour Docker. Permet de gérer les conteneurs, images, réseaux et volumes depuis un navigateur.
 icon: brand:portainer
+image:
+  src: /images/uploads/docs/portainer.jpg
 ---
 
 {{< badge text="Gestion" state="info" >}}
 
 ![Portainer](/images/uploads/docs/portainer.jpg 'Portainer')
 
-## {{< icon icon="info" >}} **Informations générales**
+## **Informations générales**
 
 - **Version** : `2.19.4`
 - **Image Docker** : [portainer/portainer-ee:latest](https://hub.docker.com/r/portainer/portainer-ee)

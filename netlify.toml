@@ -3,9 +3,9 @@ command = "yarn build:search"
 publish = "public"
 
 [build.environment]
-HUGO_VERSION = "0.167.0"
-GO_VERSION = "1.27.1"
-NODE_VERSION = "24.21"
+HUGO_VERSION = "0.168.0"
+GO_VERSION = "1.27.2"
+NODE_VERSION = "24.22.0"
 TZ = "Europe/Paris"
 
 [context.production.environment]

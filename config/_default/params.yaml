@@ -1,16 +1,16 @@
 _merge: deep
 
 # Umami Analytics Configuration
-umami:
-  enabled: true
-  website_id: '0fe3507c-451a-4694-9684-be54bfd4b8cd'
-  src: 'https://cloud.umami.is/script.js'
+analytics:
+  umami:
+    website_id: '0fe3507c-451a-4694-9684-be54bfd4b8cd'
+    domains: 'gueroult.me'
 
 form:
   netlify: true
 
 icons:
-  strokeWidth: 2
+  strokeWidth: 1.5
 
 # logo:
 #   header: '/assets/images/logo.svg'
@@ -33,6 +33,13 @@ image:
   retina:
     desktop: true
 
+docs:
+  thumbnail:
+    desktop: '38x38'
+    desktop_large: '100x100'
+    mobile: '38x38'
+    scrollsnap: '38x38'
+
 # Admin
 admin:
   cms: sveltiacms
@@ -41,6 +48,7 @@ admin:
   branch: dev
   title: TomLab CMS
   preview: true
+  publish_mode: preview
 
   slug:
     encoding: unicode
@@ -56,30 +64,72 @@ admin:
 
   netlify:
     identity: true
+
   collections:
     indexes:
       enable: false
-    posts:
+
+    persons:
       view_groups:
         - label: 'Draft'
           field: draft
-      media_folder: '{{media_folder}}/posts'
-      public_folder: '{{public_folder}}/posts'
+      media_folder: /assets/images/uploads/persons
+      public_folder: /images/uploads/persons
+      summary_fields:
+        - summary
+        - draft
+        - firstname
+        - lastname
+        - persons_places
+        - field: contact.email
+          label: Email
+
+    posts:
+      view_filters:
+        - label: 'Posts published in 2026'
+          field: date
+          pattern: '2026'
+        - label: 'Drafts'
+          field: draft
+          pattern: true
+      sortable_fields:
+        - field: date
+          default_sort: desc
+        - title
+        - commit_date
+      view_groups:
+        - label: 'Draft'
+          field: draft
+      media_folder: /assets/images/uploads/posts
+      public_folder: /images/uploads/posts
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
+
     places:
-      media_folder: '{{media_folder}}/places'
-      public_folder: '{{public_folder}}/places'
+      reorder: true
+      view_groups:
+        - label: 'Draft'
+          field: draft
+      media_folder: /assets/images/uploads/places
+      public_folder: /images/uploads/places
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
+
     pages:
       view_groups:
         - label: 'Draft'
           field: draft
-      thumbnail: hero.image.src
-      media_folder: '{{media_folder}}/pages'
-      public_folder: '{{public_folder}}/pages'
+      thumbnail: image.src
+      media_folder: /assets/images/uploads/pages
+      public_folder: /images/uploads/pages
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
-      reorder: true
+
     docs:
+      reorder: true
+      media_folder: /assets/images/uploads/docs
+      public_folder: /images/uploads/docs
+      thumbnail: image.src
+      summary_fields:
+        - title
+        - draft
       view_groups:
         - label: 'Draft'
           field: draft
@@ -93,9 +143,6 @@ admin:
         - featured_image
         - body
         - slug
-      thumbnail: image.src
-      media_folder: '{{media_folder}}/docs'
-      public_folder: '{{public_folder}}/docs'
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
       nested:
         depth: 10
