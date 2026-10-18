@@ -20,7 +20,7 @@ contact:
       url: http://www.facebook.com/profile.php?id=100069908755351&locale=fr_FR
 image:
   src: /images/uploads/places/661173262_1255948030078810_1255730899313571549_n.jpg
-  alt: Logo Rogerville
+  alt: Mairie Rogerville
 ---
 
 Nichée au cœur de la Normandie, Rogerville séduit par son charme rural, son patrimoine préservé et sa proximité avec les grands axes du Havre. Ce village à taille humaine offre un cadre de vie paisible, idéal pour les familles, les actifs et les amoureux de la nature.
