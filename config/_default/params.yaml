@@ -48,6 +48,7 @@ admin:
   branch: dev
   title: TomLab CMS
   preview: true
+  skip_ci: false
   publish_mode: preview
 
   slug:
