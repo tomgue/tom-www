@@ -9,5 +9,5 @@ links:
     is_highlighted: false
   - title: Mastodon
     url: https://mastodon.social/@tomgue
-    blank: false
+    blank: true
     is_highlighted: false
