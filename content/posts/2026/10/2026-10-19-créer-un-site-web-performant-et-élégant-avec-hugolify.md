@@ -6,6 +6,12 @@ title: Créer un site web performant et élégant avec Hugolify
 description: "Hugo, le générateur de sites statiques ultra-rapide, couplé au thème Hugolify : un blog rapide, sobre et élégant, hébergé gratuitement. Retour d'expérience et tutoriel à venir."
 authors:
   - thomas-gueroult
+categories:
+  - web
+tags:
+  - hugo
+  - hugolify
+  - jamstack
 ---
 
 Depuis quelque temps, je cherchais une solution simple et rapide pour publier sur des sujets qui me passionnent. J'ai exploré et testé de nombreux outils — WordPress, Ghost, Dotclear, voire des systèmes de wiki — avant de découvrir Hugo. Chacun avait ses qualités, mais aucun ne m'offrait la simplicité et la légèreté que je recherchais. Ce qui m'a séduit chez Hugo ? Sa rapidité et son efficacité impressionnantes.
