@@ -49,8 +49,7 @@
     "tidy": "hugo mod tidy",
     "update": "hugo mod get -u && hugo mod npm pack",
     "update:all": "yarn update && yarn tidy && yarn upgrade",
-    "watch": "h
-ugo server --buildDrafts --disableFastRender"
+    "watch": "hugo server --buildDrafts --disableFastRender"
   },
   "workspaces": [
     "packages/hugoautogen"
