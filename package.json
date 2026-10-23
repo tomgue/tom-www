@@ -48,7 +48,7 @@
     "install:hugolify": "hugo mod get && hugo mod npm pack",
     "tidy": "hugo mod tidy",
     "update": "hugo mod get -u && hugo mod npm pack",
-    "update:all": "yarn install:hugolify && yarn tidy && yarn upgrade",
+    "update:all": "yarn update && yarn tidy && yarn upgrade",
     "watch": "hugo server --buildDrafts --disableFastRender"
   },
   "workspaces": [
