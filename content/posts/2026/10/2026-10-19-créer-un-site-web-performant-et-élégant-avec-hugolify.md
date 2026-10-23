@@ -4,6 +4,8 @@ draft: false
 date: 2026-10-19T21:46:00
 title: Créer un site web performant et élégant avec Hugolify
 description: "Hugo, le générateur de sites statiques ultra-rapide, couplé au thème Hugolify : un blog rapide, sobre et élégant, hébergé gratuitement. Retour d'expérience et tutoriel à venir."
+image:
+  src: /images/uploads/posts/share.png
 authors:
   - thomas-gueroult
 categories:
@@ -57,3 +59,11 @@ C'est d'ailleurs la solution que vous consultez en ce moment même : les fichier
 Hugo et Hugolify forment un duo de premier choix pour quiconque souhaite un blog rapide, sécurisé et élégant sans les lourdeurs des systèmes traditionnels. On se concentre sur l'essentiel : **le contenu.**
 
 Prêt à passer à l'action ? Dans mon prochain article, je vous guiderai pas à pas à travers l'installation et la configuration de votre propre instance Hugo avec le thème Hugolify. Restez connectés !
+
+## En savoir plus :
+
+- [https://gohugo.io](https://gohugo.io)
+- [https://www.hugolify.io](https://www.hugolify.io)
+- [https://demo.hugolify.io](https://demo.hugolify.io)
+- [https://www.netlify.com](https://www.netlify.com)
+- [https://github.com](https://github.com)
