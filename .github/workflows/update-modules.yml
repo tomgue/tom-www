@@ -4,6 +4,9 @@ name: Update Hugolify modules
 # refreshes npm deps (hugo mod npm pack + yarn), then opens a PR to dev.
 # Netlify builds a deploy preview on that PR; production deploys only
 # when dev is merged to main.
+#
+# Uses the repo's own yarn scripts (package.json) so local and CI stay
+# identical: yarn update = hugo mod get -u + hugo mod npm pack.
 
 permissions:
   contents: write
@@ -32,15 +35,14 @@ jobs:
           hugo-version: '0.168.0'
           extended: true
 
-      - name: Update Hugo modules
-        run: |
-          hugo mod get -u ./...
-          hugo mod tidy
+      - name: Update Hugo modules (yarn update = hugo mod get -u + npm pack)
+        run: yarn update
 
-      - name: Refresh npm dependencies
-        run: |
-          hugo mod npm pack
-          yarn install
+      - name: Tidy modules
+        run: yarn tidy
+
+      - name: Install npm dependencies
+        run: yarn install
 
       - name: Create PR to dev
         uses: peter-evans/create-pull-request@v7
@@ -49,9 +51,9 @@ jobs:
           branch: chore/update-hugolify-modules
           delete-branch: true
           title: 'chore: update Hugolify modules'
-          commit-message: 'chore: update Hugolify modules (hugo mod get -u, npm pack, yarn)'
+          commit-message: 'chore: update Hugolify modules (yarn update, tidy, install)'
           body: |
-            Mise à jour des modules Hugolify via `hugo mod get -u ./...` + `hugo mod tidy` + `hugo mod npm pack` + `yarn install`.
+            Mise à jour des modules Hugolify via les scripts du dépôt : `yarn update` (hugo mod get -u + hugo mod npm pack), `yarn tidy`, `yarn install`.
 
             - Relire la deploy preview Netlify avant merge.
             - Prod (gueroult.me) déployée seulement au merge dev → main.
