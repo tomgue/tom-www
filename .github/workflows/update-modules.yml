@@ -1,0 +1,57 @@
+name: Update Hugolify modules
+
+# Manually triggered: bumps all Hugo modules to their latest versions,
+# refreshes npm deps (hugo mod npm pack + yarn), then opens a PR to dev.
+# Netlify builds a deploy preview on that PR; production deploys only
+# when dev is merged to main.
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dev
+        uses: actions/checkout@v7
+        with:
+          ref: dev
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24.22.0'
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.168.0'
+          extended: true
+
+      - name: Update Hugo modules
+        run: |
+          hugo mod get -u ./...
+          hugo mod tidy
+
+      - name: Refresh npm dependencies
+        run: |
+          hugo mod npm pack
+          yarn install
+
+      - name: Create PR to dev
+        uses: peter-evans/create-pull-request@v7
+        with:
+          base: dev
+          branch: chore/update-hugolify-modules
+          delete-branch: true
+          title: 'chore: update Hugolify modules'
+          commit-message: 'chore: update Hugolify modules (hugo mod get -u, npm pack, yarn)'
+          body: |
+            Mise à jour des modules Hugolify via `hugo mod get -u ./...` + `hugo mod tidy` + `hugo mod npm pack` + `yarn install`.
+
+            - Relire la deploy preview Netlify avant merge.
+            - Prod (gueroult.me) déployée seulement au merge dev → main.
