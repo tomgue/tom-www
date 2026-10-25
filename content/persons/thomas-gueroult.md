@@ -18,6 +18,9 @@ contact:
       url: https://www.instagram.com/grlt.tom/
     - platform: linkedin
       url: https://www.linkedin.com/in/tomgue
+    - platform: mastodon
+      url: https://mastodon.social/@tomgue
+      rel: me
 weight: 1
 ---
 
