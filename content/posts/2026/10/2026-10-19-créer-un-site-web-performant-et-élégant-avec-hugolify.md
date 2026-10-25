@@ -5,7 +5,7 @@ date: 2026-10-19T21:46:00
 title: Créer un site web performant et élégant avec Hugolify
 description: "Hugo, le générateur de sites statiques ultra-rapide, couplé au thème Hugolify : un blog rapide, sobre et élégant, hébergé gratuitement. Retour d'expérience et tutoriel à venir."
 image:
-  src: /images/uploads/posts/share.png
+  src: /images/uploads/posts/hero-créer-un-site-web-performant-et-élégant-avec-hugolify.png
 authors:
   - thomas-gueroult
 categories:
