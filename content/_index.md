@@ -5,11 +5,11 @@ title: Home
 hero:
   surtitle: Bienvenue
   title: Sur TomLab
-  text: Mon petit digital garden !
-  image:
-    src: https://images.unsplash.com/photo-1541701494587-cb58502866ab
-    credit: Photo by <a href="https://unsplash.com/@aznbokchoy?utm_source=sveltia-cms&amp;utm_medium=referral">Lucas K</a> on <a href="https://unsplash.com/?utm_source=sveltia-cms&amp;utm_medium=referral">Unsplash</a>
-    background: false
+  text: Mon petit "digital garden" 🌱
+  ui:
+    theme: accent
+    align: start
+    vertical_align: center
     darken: false
 blocks:
   - type: latest
@@ -31,7 +31,7 @@ blocks:
       title: Homelab
       text: Petite documentation pour mon homelab, pour moi-même, mais qui peut également servir à d'autres.
     ui:
-      grid: small
+      grid: large
       offset: center
       align: start
       scrollsnap: md

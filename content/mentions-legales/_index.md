@@ -9,7 +9,7 @@ hero:
   text: En utilisant ce site, vous reconnaissez avoir pris connaissance des dispositions ci-dessous et vous vous engagez à les respecter. Les mentions légales indiquées ci-dessous peuvent évoluer, nous vous invitons à les consulter régulièrement.
   ui:
     theme: accent
-    align: center
+    align: start
     vertical_align: center
     darken: false
 ---
@@ -31,25 +31,17 @@ L'infrastructure de ce site repose sur les services suivants :
 Gestionnaire du code source :
 
 > GitHub Inc.,
->
 > 88 Colin P. Kelly Jr. St,
->
 > San Francisco,
->
 > CA 94107,
->
 > États-Unis.
 
 Plateforme de déploiement et d'hébergement :
 
 > Netlify, Inc.,
->
 > 44 Tehama Street,
->
 > San Francisco,
->
 > CA 94105,
->
 > États-Unis.
 
 ## 3. Politique de confidentialité (RGPD)
@@ -79,10 +71,12 @@ Les adresses IP sont **anonymisées**, aucun cookie tiers n'est utilisé, et les
 Sauf mention contraire explicite, les contenus de ce blog (textes, articles) sont mis à disposition selon la licence **[Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les mêmes conditions 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0)**.
 
 Vous êtes libres de :
+
 - **Partager** : reproduire et diffuser les contenus
 - **Adapter** : remixer, transformer, et créer à partir des contenus
 
 **À condition de** :
+
 - **Attribution** : créditer l'auteur (Thomas Gueroult) et fournir un lien vers la licence
 - **Pas d’utilisation commerciale** : vous ne pouvez pas utiliser ces contenus à des fins commerciales
 - **Partage à l’identique** : si vous modifiez ou adaptez les contenus, vous devez les partager sous la même licence
