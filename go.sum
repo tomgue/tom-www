@@ -4,8 +4,8 @@ github.com/dixonandmoe/rellax v0.0.0-20240824005335-9ed6cb0aae03 h1:TyZM0MK9+09/
 github.com/dixonandmoe/rellax v0.0.0-20240824005335-9ed6cb0aae03/go.mod h1:CJ8UtS8LPLOSmpvwRkQJkwqOwwXaDfH5S7iG83GKAlY=
 github.com/hugolify/hugolify-admin/v2 v2.0.0-40 h1:2Lnr9BfGw4XndV1f2XhjvagiJXWoCaF4Q8cA7qw/omE=
 github.com/hugolify/hugolify-admin/v2 v2.0.0-40/go.mod h1:lPDkZn5SuJ2zB96xU/kKH3gNWOovqgxutjgnBOin48M=
-github.com/hugolify/hugolify-theme-design-system v0.0.0-20261024150101-ed42181ace2e h1:UjIY8gggFw2XD0I+wTTdBWjR49pkdduORjWbXIw2u40=
-github.com/hugolify/hugolify-theme-design-system v0.0.0-20261024150101-ed42181ace2e/go.mod h1:pmx1M5Ej9OhNx59jVsqRWhWHSv0JVx6U9txsqTWauTQ=
+github.com/hugolify/hugolify-theme-design-system v0.0.0-20261028110111-84fdd110d293 h1:DVSlXsztpIbd3MEL6g/zJe9cGHqz0f6dv/KLNa8zj6A=
+github.com/hugolify/hugolify-theme-design-system v0.0.0-20261028110111-84fdd110d293/go.mod h1:pmx1M5Ej9OhNx59jVsqRWhWHSv0JVx6U9txsqTWauTQ=
 github.com/hugolify/hugolify-theme-docs/v2 v2.0.0-20261009094139-a5b427476ff4 h1:C+i1AcinZN0AWS5R3eFeug9/foG8p74QEmPjsOb4imc=
 github.com/hugolify/hugolify-theme-docs/v2 v2.0.0-20261009094139-a5b427476ff4/go.mod h1:L+idmDTe/Y+zi2lxe7BakjDgywPvNJ5NISKvEb/DwrU=
 github.com/hugolify/hugolify-theme-icons v0.0.0-20261016114629-339c166e9627 h1:1xlLCvi1jDWeV6LCsKWeWFjMqkmYhgbKFdLzcK6EfoE=
@@ -26,10 +26,10 @@ github.com/hugolify/hugolify-theme-posts/v2 v2.6.1 h1:B5BEbjTvaRjudzeYFL4SAYfQnc
 github.com/hugolify/hugolify-theme-posts/v2 v2.6.1/go.mod h1:dHhV8ouOmfrMz7Kz+LFhc8vCBb8sugI5d9wDzhO1n2M=
 github.com/hugolify/hugolify-theme/v2 v2.55.0 h1:ahabaJmZwsL4T1NoCWCO6iVj9IoeF+Po21EHqscVuhQ=
 github.com/hugolify/hugolify-theme/v2 v2.55.0/go.mod h1:49bO1E1dltejQfsaP5EYB4dv7oOUDhyWWio9OWK9FAw=
-github.com/lucide-icons/lucide v0.265.1-0.20261028082735-408cdf7e4c8a h1:oDgilGFDgcy+eLAGR8GwcmBE6A278Ap31AgTbNfLR1o=
-github.com/lucide-icons/lucide v0.265.1-0.20261028082735-408cdf7e4c8a/go.mod h1:0HX/9u6n25zuV2HgBIuqfMfDktGNXmsvYqL1cOK4aWc=
-github.com/midzer/tobii v3.2.0+incompatible h1:+08xCdrQ8dlXrkBIOJFsIUsfgme4Ou1CUfbqDmeX/Hc=
-github.com/midzer/tobii v3.2.0+incompatible/go.mod h1:ByXFkVm8ja2+TXT7L+lfkdEIeHW4IdWdsQO8zJ5mEqA=
+github.com/lucide-icons/lucide v0.265.1-0.20261028112431-c2dd25753da3 h1:ScmOnf/NSJaZzy0ly0W6V9OoCzhlD82BUTygmJGxQto=
+github.com/lucide-icons/lucide v0.265.1-0.20261028112431-c2dd25753da3/go.mod h1:0HX/9u6n25zuV2HgBIuqfMfDktGNXmsvYqL1cOK4aWc=
+github.com/midzer/tobii v3.2.1+incompatible h1:7OzFt5SKgpo1BROxIK6xHY99Odeg6z2pvpfFXOFmdWM=
+github.com/midzer/tobii v3.2.1+incompatible/go.mod h1:ByXFkVm8ja2+TXT7L+lfkdEIeHW4IdWdsQO8zJ5mEqA=
 github.com/orestbida/cookieconsent v3.1.0+incompatible h1:L2uj16SEL1bICkn6pJde9uc1qAPmTcEiFZO93zZKdQI=
 github.com/orestbida/cookieconsent v3.1.0+incompatible/go.mod h1:8N46VI/40AwvzASJDpiwfbu6zylSzKSDZRUVNmVXLxw=
 github.com/simple-icons/simple-icons v0.0.0-20260607021030-c3777a7e48a5 h1:KMtcHeiD7TpsH/GQhibbHc1Nd8SB3p2VW6S3lCYk4Vs=
