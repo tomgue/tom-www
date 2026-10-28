@@ -3,8 +3,24 @@ defaultContentLanguage: fr
 enableEmoji: true
 enableRobotsTXT: true
 
+## ADVANCED
+build:
+  buildStats:
+    disableClasses: false
+    disableIDs: true
+    disableTags: false
+    enable: true
+
+pagination:
+  pagerSize: 9
+removePathAccents: true
+
 markup:
+  tableOfContents:
+    ordered: true
   goldmark:
+    renderer:
+      hardWraps: true
     extensions:
       extras:
         delete:

@@ -9,7 +9,6 @@ blocks:
       title: Me contacter
       text: Contactez-moi avec ce formulaire, je vous répondrai dès que possible.
     ui:
-      theme: light
       grid: small
       offset: center
       align: center

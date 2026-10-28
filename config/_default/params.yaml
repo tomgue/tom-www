@@ -49,7 +49,15 @@ admin:
   title: TomLab CMS
   preview: true
   skip_ci: false
-  publish_mode: preview
+  # publish_mode: preview
+
+  fields:
+    body:
+      minimal: false
+      modes: "['rich_text', 'raw']"
+    text_markdown:
+      minimal: false
+      modes: "['rich_text', 'raw']"
 
   slug:
     encoding: unicode
