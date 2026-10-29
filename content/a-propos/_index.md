@@ -34,7 +34,7 @@ Ce blog est un mélange de code, de hardware et de DIY. Je partage mes expérime
 
 - **Le Web Performant :** Pourquoi j'utilise Hugo et le thème Hugolify pour un web plus léger et plus rapide.
 - **L'Auto-hébergement :** Mes aventures avec Docker, mes NAS et la gestion de mes services.
-Le DIY & Maker Spirit : De l'informatique pure à mes débuts (prochains) dans l'impression 3D.
+- **Le DIY & Maker Spirit** : De l'informatique pure à mes débuts (proc :hns) dans l'impression 3D.
 
 ## Qui suis-je ?
 
