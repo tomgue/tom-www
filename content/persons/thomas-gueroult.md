@@ -5,8 +5,12 @@ title: Thomas Gueroult
 firstname: Thomas
 lastname: Gueroult
 description: Yo !
+image:
+  src: /images/uploads/persons/1000025176.jpg
 persons_places:
   - rogerville
+languages:
+  - fr
 contact:
   email: 5zuce49mn@mozmail.com
   socials:
