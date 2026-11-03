@@ -17,7 +17,7 @@ require (
 	github.com/hugolify/hugolify-theme-posts-tags/v2 v2.2.0 // indirect
 	github.com/hugolify/hugolify-theme-posts/v2 v2.6.2 // indirect
 	github.com/hugolify/hugolify-theme/v2 v2.58.0 // indirect
-	github.com/lucide-icons/lucide v0.265.1-0.20261103084131-7bb15b80a3c8 // indirect
+	github.com/lucide-icons/lucide v0.265.1-0.20261103131615-aa0b77386c07 // indirect
 	github.com/midzer/tobii v3.2.1+incompatible // indirect
 	github.com/orestbida/cookieconsent v3.3.0+incompatible // indirect
 	github.com/simple-icons/simple-icons v0.0.0-20260607021030-c3777a7e48a5 // indirect

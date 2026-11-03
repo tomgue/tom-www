@@ -26,8 +26,8 @@ github.com/hugolify/hugolify-theme-posts/v2 v2.6.2 h1:l2A5OBp7H6Tb6X+O7jRrJ46HBU
 github.com/hugolify/hugolify-theme-posts/v2 v2.6.2/go.mod h1:dHhV8ouOmfrMz7Kz+LFhc8vCBb8sugI5d9wDzhO1n2M=
 github.com/hugolify/hugolify-theme/v2 v2.58.0 h1:gXxsefQbleTPgrK8O1dB/cGCxbl9Ws0PAXYygfEG5L8=
 github.com/hugolify/hugolify-theme/v2 v2.58.0/go.mod h1:49bO1E1dltejQfsaP5EYB4dv7oOUDhyWWio9OWK9FAw=
-github.com/lucide-icons/lucide v0.265.1-0.20261103084131-7bb15b80a3c8 h1:jT6ikh5l0xCgu6KclvKoreVRcih+M2dlLVQy2xttPyk=
-github.com/lucide-icons/lucide v0.265.1-0.20261103084131-7bb15b80a3c8/go.mod h1:0HX/9u6n25zuV2HgBIuqfMfDktGNXmsvYqL1cOK4aWc=
+github.com/lucide-icons/lucide v0.265.1-0.20261103131615-aa0b77386c07 h1:P8wVVgMZg+DgN4l6brgwlWJ6o0dxqbhuuxgNK1tYmjw=
+github.com/lucide-icons/lucide v0.265.1-0.20261103131615-aa0b77386c07/go.mod h1:0HX/9u6n25zuV2HgBIuqfMfDktGNXmsvYqL1cOK4aWc=
 github.com/midzer/tobii v3.2.1+incompatible h1:7OzFt5SKgpo1BROxIK6xHY99Odeg6z2pvpfFXOFmdWM=
 github.com/midzer/tobii v3.2.1+incompatible/go.mod h1:ByXFkVm8ja2+TXT7L+lfkdEIeHW4IdWdsQO8zJ5mEqA=
 github.com/orestbida/cookieconsent v3.3.0+incompatible h1:QmOH++JZIJizGRj5WInJbVaeiqCyPBVPpDVip4F7lhM=
