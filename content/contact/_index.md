@@ -2,12 +2,17 @@
 isPage: true
 draft: false
 title: Contact
+hero:
+  surtitle: Une question ? une insulte ?
+  title: Me contacter
+  text: Contactez-moi avec ce formulaire, je vous répondrai dès que possible.
+  ui:
+    theme: accent
+    align: start
+    vertical_align: center
+    darken: false
 blocks:
   - type: form
-    heading:
-      surtitle: Une question ? une insulte ?
-      title: Me contacter
-      text: Contactez-moi avec ce formulaire, je vous répondrai dès que possible.
     ui:
       grid: small
       offset: center
