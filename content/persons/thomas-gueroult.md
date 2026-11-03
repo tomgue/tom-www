@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-title: Thomas Gueroult
+title: Tomgue
 firstname: Thomas
 lastname: Gueroult
 description: Yo !
