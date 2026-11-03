@@ -9,6 +9,8 @@ hero:
   text: Pourquoi "faire soi-même" à l'heure du tout-prêt ?
   ui:
     theme: accent
+    align: start
+    vertical_align: center
     darken: false
 ---
 
