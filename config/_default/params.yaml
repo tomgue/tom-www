@@ -8,6 +8,7 @@ analytics:
 
 form:
   netlify: true
+  ajax: true
 
 icons:
   strokeWidth: 1.5
