@@ -98,6 +98,13 @@ admin:
         - field: contact.email
           label: Email
     posts:
+      summary_fields:
+        - title
+        - draft
+        - date
+        - authors
+        - categories
+        - tags
       view_filters:
         - label: 'Posts published in 2026'
           field: date
@@ -138,6 +145,7 @@ admin:
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
     docs:
       reorder: true
+      
       media_folder: /assets/images/uploads/docs
       public_folder: /images/uploads/docs
       summary_fields:
