@@ -34,13 +34,6 @@ image:
   retina:
     desktop: true
 
-docs:
-  thumbnail:
-    desktop: '38x38'
-    desktop_large: '100x100'
-    mobile: '38x38'
-    scrollsnap: '38x38'
-
 # Admin
 admin:
   cms: sveltiacms
@@ -75,10 +68,21 @@ admin:
   netlify:
     identity: true
 
+  collection_groups:
+    - heading: Pages
+      collections: [pages]
+    - heading: Blog
+      collections: [posts, posts_categories, posts_tags]
+    - heading: Documentation
+      collections: [docs]
+    - heading: Other
+      collections: ['*']
+    - heading: Configuration
+      collections: [menus, config]
+
   collections:
     indexes:
       enable: false
-
     persons:
       view_groups:
         - label: 'Draft'
@@ -93,7 +97,6 @@ admin:
         - persons_places
         - field: contact.email
           label: Email
-
     posts:
       view_filters:
         - label: 'Posts published in 2026'
@@ -113,46 +116,36 @@ admin:
       media_folder: /assets/images/uploads/posts
       public_folder: /images/uploads/posts
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
-
     places:
-      reorder: true
-      view_groups:
-        - label: 'Draft'
-          field: draft
-      media_folder: /assets/images/uploads/places
-      public_folder: /images/uploads/places
-      summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
-
-    pages:
-      view_groups:
-        - label: 'Draft'
-          field: draft
-      thumbnail: image.src
-      media_folder: /assets/images/uploads/pages
-      public_folder: /images/uploads/pages
-      summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
-
-    docs:
-      reorder: true
-      media_folder: /assets/images/uploads/docs
-      public_folder: /images/uploads/docs
-      thumbnail: image.src
       summary_fields:
         - title
         - draft
       view_groups:
         - label: 'Draft'
           field: draft
-      fields:
-        - id
-        - is_not_index
+      media_folder: /assets/images/uploads/places
+      public_folder: /images/uploads/places
+      summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
+    pages:
+      summary_fields:
+        - title
         - draft
-        - title_page
-        - description
-        - icon
-        - featured_image
-        - body
-        - slug
+      view_groups:
+        - label: 'Draft'
+          field: draft
+      media_folder: /assets/images/uploads/pages
+      public_folder: /images/uploads/pages
+      summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
+    docs:
+      reorder: true
+      media_folder: /assets/images/uploads/docs
+      public_folder: /images/uploads/docs
+      summary_fields:
+        - title
+        - draft
+      view_groups:
+        - label: 'Draft'
+          field: draft
       summary: "**{{title}}** - {{draft | ternary('⛔️ Brouillon', '✅ _Publié_')}}"
       nested:
         depth: 10
