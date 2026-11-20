@@ -5,7 +5,7 @@ date: 2026-11-20T10:45:00
 title: "40 Years of Fuckin' Up : NOFX sur grand écran"
 description: Ce jeudi, le cinéma Sirius du Havre projette « 40 Years of Fuckin' Up », le documentaire qui raconte comment quatre ados « sans talent » sont devenus le groupe indépendant le plus prospère de l'histoire et pourquoi ils ne se parlent plus.
 image:
-  src: /images/uploads/posts/NOFX---40-Years-of-Fuckin-Up-Poster-Web.webp
+  src: /images/uploads/posts/1000025640.webp
 authors:
   - thomas-gueroult
 categories:
@@ -19,6 +19,8 @@ noIndex: false
 ## 40 Years of Fuckin' Up : NOFX sur grand écran
 
 ![Logo](/images/uploads/posts/40-YEARS-OF-FUCKIN-UP-LOGO.webp)
+
+{{< figure src="/images/uploads/posts/NOFX---40-Years-of-Fuckin-Up-Poster-Web.webp" alt="affiche officielle" legend="Affiche officielle" credit="[https://www.40yearsoffuckinup.com](https://www.40yearsoffuckinup.com)" >}}
 
 Jeudi 22 octobre 2026, 20h45, cinéma Sirius, Le Havre. Pas un blockbuster, pas une comédie française : un documentaire punk de deux heures en VOSTFR, présenté en première française par l'association de surf [Around The Waves](https://aroundthewaves.com/fr). Si le programme paraît improbable, c'est pourtant exactement ce que NOFX aurait voulu.
 
