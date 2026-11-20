@@ -41,7 +41,7 @@ On y croise aussi Bad Religion, The Offspring, Pennywise, Fishbone, la scène en
 
 ## Un film qui sort comme un concert
 
-{{< blockquote quote="Nous voulons que ça ressemble à un concert de NOFX." title="Fat Mike" src="/images/uploads/posts/1000025641.webp" >}}
+{{< blockquote quote="Nous voulons que ça ressemble à un concert de NOFX." title="Fat Mike" src="/images/uploads/posts/1000025642.png" >}}
 
 La sortie du film est déjà un geste punk, détail qui ne surprendra personne et qui dit tout : 40 Years of Fuckin' Up ne sortira pas en streaming, pas de VOD, pas de plateforme. Uniquement des séances événementielles dans des salles choisies, avec bar et « pas trop de règles », comme l'explique Fat Mike : « Nous voulons que ça ressemble à un concert de NOFX. »
 
