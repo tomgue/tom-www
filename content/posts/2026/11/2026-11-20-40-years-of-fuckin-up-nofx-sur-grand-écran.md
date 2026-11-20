@@ -20,7 +20,7 @@ noIndex: false
 
 Jeudi 22 octobre 2026, 20h45, cinéma Sirius, Le Havre. Pas un blockbuster, pas une comédie française : un documentaire punk de deux heures en VOSTFR, présenté en première française par l'association de surf [Around The Waves](https://aroundthewaves.com/fr). Si le programme paraît improbable, c'est pourtant exactement ce que NOFX aurait voulu.
 
-### Trailer
+## Trailer
 
 {{< vimeo 1154900779 vimeo "Trailer" >}}
 
@@ -32,15 +32,14 @@ Pour qui ne connaît pas NOFX, le paradoxe est vite résumé : dans les années 
 Le film s'ouvre sur un carton d'une honnêteté brutale : en 2024, après une tournée mondiale d'adieu de 18 mois, NOFX a joué ses trois derniers concerts au port de San Pedro, à Los Angeles. Au moment du tournage, certains membres ne se parlaient plus et étaient en litige juridique. Et le carton de conclure : ce documentaire est la dernière fois qu'on les verra ensemble à l'écran.
 Pas exactement la réunion sentimentale qu'on attend d'un film produit par le groupe lui-même. Et c'est précisément ce qui le rend intéressant.
 
-### Un règlement de comptes filmé
+## Un règlement de comptes filmé
 
 Le réalisateur James Buddy Day a fait un choix que peu de « films de groupe » osent : ne pas arbitrer.
 Fat Mike raconte ses addictions et ses blessures d'un côté ; Eric Melvin, la rupture et les procédures de l'autre. Entre eux, dix ans de ressentiment, plusieurs tentatives d'intervention, un mois de cure en 2020 et une notification judiciaire demandant des comptes financiers. Le film laisse les versions se contredire et force le spectateur à se faire son propre juge.
 
-
 On y croise aussi Bad Religion, The Offspring, Pennywise, Fishbone, la scène entière qui les a vus grandir. Et l'on découvre un Fat Mike de 57 ans qui assume tout : « Je veux normaliser ça. Parce que c'est normal. »
 
-### Un film qui sort comme un concert
+## Un film qui sort comme un concert
 
 {{< blockquote quote="Nous voulons que ça ressemble à un concert de NOFX." title="Fat Mike" src="/images/uploads/posts/1000025641.webp" >}}
 
@@ -55,13 +54,13 @@ De San Pedro au Havre, il y a une élégance à avoir vu ce film ici. Le dernier
 
 Une séance de cinéma comme dernier concert. C'est très exactement ce qu'ils auraient voulu.
 
-### Mon avis
+## Mon avis
 
 J'ai trouvé ce film terriblement intéressant. J'adore NOFX, ils font partie de ma jeunesse et je les écoute toujours sans jamais m'en lasser. Fat Mike est un sacré personnage, haut en couleurs et en vinyle !
 Pour un mec resté plus ou moins sobre et sage jusqu'à la trentaine, puis devenu le plus dépravé du quatuor selon le film (une bouteille de vodka avant chaque concert comme on boirait de l'eau minérale, des substances sniffées à tire-larigot), Fat Mike est avant tout un sacré businessman. Sans lui, je ne pense pas que le groupe aurait pu aller si loin !
 Entre le label d'autoproduction, les tournées et tout ce qu'il a géré pour le groupe, voir ce conflit est difficile, même si le film laisse planer le doute. Mais ce n'est pas ce que je retiens : je retiens ce qu'ils ont construit, pas la façon dont ça se termine.
 
-#### Info du film
+### Info du film
 
 NOFX - 40 YEARS OF FUCKIN’UP 2026 (USA)
 
