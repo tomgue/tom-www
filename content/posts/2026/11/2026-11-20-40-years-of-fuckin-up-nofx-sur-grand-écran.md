@@ -60,7 +60,7 @@ J'ai trouvé ce film terriblement intéressant. J'adore NOFX, ils font partie de
 Pour un mec resté plus ou moins sobre et sage jusqu'à la trentaine, puis devenu le plus dépravé du quatuor selon le film (une bouteille de vodka avant chaque concert comme on boirait de l'eau minérale, des substances sniffées à tire-larigot), Fat Mike est avant tout un sacré businessman. Sans lui, je ne pense pas que le groupe aurait pu aller si loin !
 Entre le label d'autoproduction, les tournées et tout ce qu'il a géré pour le groupe, voir ce conflit est difficile, même si le film laisse planer le doute. Mais ce n'est pas ce que je retiens : je retiens ce qu'ils ont construit, pas la façon dont ça se termine.
 
-### Info du film
+## Info du film
 
 NOFX - 40 YEARS OF FUCKIN’UP 2026 (USA)
 
@@ -71,7 +71,7 @@ NOFX - 40 YEARS OF FUCKIN’UP 2026 (USA)
 - La direction de la photographie est assurée par Nathanial Harper.
 - La musique est signée Fat Mike et Matt Nasir.
 
-### Liens
+## Liens
 
 [https://www.40yearsoffuckinup.com](https://www.40yearsoffuckinup.com)
 [https://aroundthewaves.com](https://aroundthewaves.com)
