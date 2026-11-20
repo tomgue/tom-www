@@ -16,13 +16,11 @@ tags:
 noIndex: false
 ---
 
-## 40 Years of Fuckin' Up : NOFX sur grand écran
-
-![Logo](/images/uploads/posts/40-YEARS-OF-FUCKIN-UP-LOGO.webp)
-
 {{< figure src="/images/uploads/posts/NOFX---40-Years-of-Fuckin-Up-Poster-Web.webp" alt="affiche officielle" legend="Affiche officielle" credit="[https://www.40yearsoffuckinup.com](https://www.40yearsoffuckinup.com)" >}}
 
 Jeudi 22 octobre 2026, 20h45, cinéma Sirius, Le Havre. Pas un blockbuster, pas une comédie française : un documentaire punk de deux heures en VOSTFR, présenté en première française par l'association de surf [Around The Waves](https://aroundthewaves.com/fr). Si le programme paraît improbable, c'est pourtant exactement ce que NOFX aurait voulu.
+
+### Trailer
 
 {{< vimeo 1154900779 vimeo "Trailer" >}}
 
@@ -43,6 +41,9 @@ On y croise aussi Bad Religion, The Offspring, Pennywise, Fishbone, la scène en
 ### Un film qui sort comme un concert
 
 La sortie du film est déjà un geste punk, détail qui ne surprendra personne et qui dit tout : 40 Years of Fuckin' Up ne sortira pas en streaming, pas de VOD, pas de plateforme. Uniquement des séances événementielles dans des salles choisies, avec bar et « pas trop de règles », comme l'explique Fat Mike : « Nous voulons que ça ressemble à un concert de NOFX. »
+
+{{< blockquote quote="Nous voulons que ça ressemble à un concert de NOFX." title="Fat Mike" >}}
+
 Le groupe a même appliqué le même DIY à la bande originale : un double album avec d'un côté la soundtrack (dont une reprise de La Bamba et le dernier titre joué sur scène, We Did It Our Way), de l'autre une partition orchestrale originale de Fat Mike, jouée par un orchestre complet.
 Un groupe qui passe 40 ans à refuser les modèles économiques du secteur ne va tout de même pas finir dans un catalogue SVOD.
 De San Pedro au Havre, il y a une élégance à avoir vu ce film ici. Le dernier concert de NOFX a eu lieu sur un quai du port de San Pedro. Le 22 octobre, c'est dans un autre port, le nôtre, que le groupe est revenu une dernière fois à l'écran, grâce à Around The Waves et au Sirius, qui portent des projets comme celui-ci quand personne d'autre ne le fait.
@@ -74,3 +75,5 @@ NOFX - 40 YEARS OF FUCKIN’UP 2026 (USA)
 [https://www.40yearsoffuckinup.com](https://www.40yearsoffuckinup.com)
 [https://aroundthewaves.com](https://aroundthewaves.com)
 [https://cinemasirius.com](https://cinemasirius.com)
+
+![Logo](/images/uploads/posts/40-YEARS-OF-FUCKIN-UP-LOGO.webp)
