@@ -73,8 +73,8 @@ NOFX - 40 YEARS OF FUCKIN’UP 2026 (USA)
 
 ## Liens
 
-[https://www.40yearsoffuckinup.com](https://www.40yearsoffuckinup.com)
-[https://aroundthewaves.com](https://aroundthewaves.com)
-[https://cinemasirius.com](https://cinemasirius.com)
+- [https://www.40yearsoffuckinup.com](https://www.40yearsoffuckinup.com)
+- [https://aroundthewaves.com](https://aroundthewaves.com)
+- [https://cinemasirius.com](https://cinemasirius.com)
 
 ![Logo](/images/uploads/posts/40-YEARS-OF-FUCKIN-UP-LOGO.webp)
