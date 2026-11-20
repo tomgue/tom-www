@@ -42,7 +42,7 @@ On y croise aussi Bad Religion, The Offspring, Pennywise, Fishbone, la scène en
 
 La sortie du film est déjà un geste punk, détail qui ne surprendra personne et qui dit tout : 40 Years of Fuckin' Up ne sortira pas en streaming, pas de VOD, pas de plateforme. Uniquement des séances événementielles dans des salles choisies, avec bar et « pas trop de règles », comme l'explique Fat Mike : « Nous voulons que ça ressemble à un concert de NOFX. »
 
-{{< blockquote quote="Nous voulons que ça ressemble à un concert de NOFX." title="Fat Mike" >}}
+{{< blockquote quote="Nous voulons que ça ressemble à un concert de NOFX." title="Fat Mike" text="Citation" src="/images/uploads/posts/1000025641.webp" >}}
 
 Le groupe a même appliqué le même DIY à la bande originale : un double album avec d'un côté la soundtrack (dont une reprise de La Bamba et le dernier titre joué sur scène, We Did It Our Way), de l'autre une partition orchestrale originale de Fat Mike, jouée par un orchestre complet.
 Un groupe qui passe 40 ans à refuser les modèles économiques du secteur ne va tout de même pas finir dans un catalogue SVOD.
