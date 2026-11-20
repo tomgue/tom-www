@@ -36,6 +36,8 @@ Pas exactement la réunion sentimentale qu'on attend d'un film produit par le gr
 
 Le réalisateur James Buddy Day a fait un choix que peu de « films de groupe » osent : ne pas arbitrer.
 Fat Mike raconte ses addictions et ses blessures d'un côté ; Eric Melvin, la rupture et les procédures de l'autre. Entre eux, dix ans de ressentiment, plusieurs tentatives d'intervention, un mois de cure en 2020 et une notification judiciaire demandant des comptes financiers. Le film laisse les versions se contredire et force le spectateur à se faire son propre juge.
+
+
 On y croise aussi Bad Religion, The Offspring, Pennywise, Fishbone, la scène entière qui les a vus grandir. Et l'on découvre un Fat Mike de 57 ans qui assume tout : « Je veux normaliser ça. Parce que c'est normal. »
 
 ### Un film qui sort comme un concert
