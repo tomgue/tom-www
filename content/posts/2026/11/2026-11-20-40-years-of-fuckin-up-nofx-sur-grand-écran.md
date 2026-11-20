@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2026-11-20T10:45:00
 title: "40 Years of Fuckin' Up : NOFX sur grand écran"
-description: Ce jeudi, le cinéma Sirius du Havre projette « 40 Years of Fuckin' Up », le documentaire qui raconte comment quatre ados « sans talent » sont devenus le groupe indépendant le plus prospère de l'histoire et pourquoi ils ne se parlent plus.
+description: Le cinéma Sirius du Havre projette « 40 Years of Fuckin' Up », le documentaire qui raconte comment quatre ados « sans talent » sont devenus le groupe indépendant le plus prospère de l'histoire et pourquoi ils ne se parlent plus.
 image:
   src: /images/uploads/posts/1000025640.webp
 authors:
